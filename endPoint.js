@@ -9,10 +9,10 @@ app.use(cors());
 app.use(express.json());
 
 const dbConfig = {
-  user: 'logic',
+  user: 'sa',
   password: 'Sage2024+',
-  server: 'SVRALANDALUS',
-  database: 'DEMOS',
+  server: '147.161.94.143', 
+  database: 'SERGI',
   options: {
     trustServerCertificate: true,
     enableArithAbort: true,
