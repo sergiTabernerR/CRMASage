@@ -1,0 +1,35 @@
+{
+  "Clientes": [
+    {
+      "AccountId": "0015I00000G2KB0QAJ",
+      "CifDni": "A12345678",
+      "Divisa": ""
+    }
+  ],
+  "CabeceraPedidoCliente": [
+    {
+      "AccountId": "0015I00000G2KB0QAJ",
+      "NombreEmpresa": "Ferretería El Clavo",
+      "NumeroPedido": "001",
+      "FechaPedido": "2025-05-06",
+      "LineasPedidoCliente": [
+        {
+          "DescripcionArticulo": "Taladro Bosch",
+          "NumeroPedido": "001",
+          "UnidadesPedidas": 10,
+          "Precio": 15.5,
+          "PorcentajeDescuento": 5,
+          "DescuentoEnCantidad": 200
+        },
+        {
+          "DescripcionArticulo": "Cemento 25kg",
+          "NumeroPedido": "001",
+          "UnidadesPedidas": 20,
+          "Precio": 25.0,
+          "PorcentajeDescuento": 10,
+          "DescuentoEnCantidad": 400
+        }
+      ]
+    }
+  ]
+}
