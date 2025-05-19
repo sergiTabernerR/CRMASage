@@ -11,7 +11,8 @@ app.use(express.json());
 const dbConfig = {
   user: 'sa',
   password: 'Sage2024+',
-  server: '147.161.94.143', 
+  server: '147.161.94.143',
+  port: 54321,
   database: 'SERGI',
   options: {
     trustServerCertificate: true,
