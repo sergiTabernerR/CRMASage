@@ -9,17 +9,17 @@ app.use(cors());
 app.use(express.json());
 
 const dbConfig = {
-  user: 'Logic',
-  password: 'Sage2024+',
+  user: 'api_sage_user',
+  password: 'ApiSage2024+',
   server: '147.161.94.143',
   port: 54321,
   database: 'SERGI',
   options: {
     trustServerCertificate: true,
-    enableArithAbort: true,
-    requestTimeout: 60000
+    enableArithAbort: true
   }
 };
+
 
 const truncar = (texto, max) => (texto?.toString().substring(0, max) ?? '');
 const generarCodigoArticulo = (descripcion) => 'ART' + descripcion.replace(/\s+/g, '').substring(0, 10).toUpperCase();
