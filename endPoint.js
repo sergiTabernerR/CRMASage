@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 const dbConfig = {
-  user: 'sa',
+  user: 'logic',
   password: 'Sage2024+',
   server: '147.161.94.143',
   port: 54321,
