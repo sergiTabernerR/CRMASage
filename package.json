@@ -6,7 +6,7 @@
     "start": "node endPoint.js"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "keywords": [],
   "author": "",
